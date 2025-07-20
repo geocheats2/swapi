@@ -1,0 +1,33 @@
+nohup: ignoring input
+INFO:     Started server process [3082255]
+INFO:     Waiting for application startup.
+INFO:app.main:Starting up...
+INFO:databases:Connected to database sqlite:///./starwars.db
+INFO:app.main:Database connected
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8857 (Press CTRL+C to quit)
+INFO:     94.64.150.87:0 - "GET / HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET / HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET / HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET / HTTP/1.1" 200 OK
+INFO:     205.169.39.57:0 - "GET / HTTP/1.1" 200 OK
+INFO:     167.235.250.30:0 - "GET / HTTP/1.1" 200 OK
+INFO:     167.235.250.30:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     34.118.123.127:0 - "GET / HTTP/1.1" 200 OK
+INFO:     54.90.113.222:0 - "GET / HTTP/1.1" 200 OK
+INFO:     94.64.150.87:0 - "GET /index.php?page=1&size=20 HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:app.main:Shutting down...
+INFO:databases:Disconnected from database sqlite:///./starwars.db
+INFO:app.main:Database disconnected
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3082255]
